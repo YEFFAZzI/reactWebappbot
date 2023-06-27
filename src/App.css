@@ -1,4 +1,8 @@
 .App {
+background: rgb(69,60,103);
+background: linear-gradient(0deg, rgba(69,60,103,0.9192051820728291) 34%, rgba(109,103,228,1) 88%);
+}
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +39,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/

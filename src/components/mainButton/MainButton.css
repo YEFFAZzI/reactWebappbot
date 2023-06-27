@@ -14,6 +14,8 @@
 */
 
 .mainBtn {
+    width: 160px;
+    height: 160px;
     background-color: #453C67 ;
     border: 2px solid #46C2CB;
     border-radius: 22px;
