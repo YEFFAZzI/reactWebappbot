@@ -4,7 +4,7 @@ import './MainButton.css';
 function MainButton(props) {
   return (
     <div className="mainBtn">
-        <div></div>
+        <img src={props.logo}  alt="logo" />
         <div>{props.title} </div>
     </div>
   );

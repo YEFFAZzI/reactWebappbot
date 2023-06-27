@@ -1,6 +1,18 @@
+
 .App {
 background: rgb(69,60,103);
 background: linear-gradient(0deg, rgba(69,60,103,0.9192051820728291) 34%, rgba(109,103,228,1) 88%);
+height: 100vh;
+width: 100vw;
+
+
+/* flexible */
+
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-content: center;
 }
 /*.App {
   text-align: center;
