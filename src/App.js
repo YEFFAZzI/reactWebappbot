@@ -9,12 +9,15 @@ import './components/mainButton/MainButton.jsx'
 import MainButton from './components/mainButton/MainButton.jsx';
 
 
+
 function App() {
-  return (
+  
     
-    <div className="App">
-      <MainButton title="Документы" logo={docs}/> 
-      <MainButton title="Персонал" logo={ppl}/>
+  return (
+      
+    <div className="App" >
+      <MainButton title="Документы" logo={docs} /> 
+      <MainButton title="Персонал" logo={ppl} />
       <MainButton title="QR" logo={qr} />
       <MainButton title="Настройки" logo={set} />
     </div>

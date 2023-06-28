@@ -1,18 +1,4 @@
 
-/*
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-
-*/
-
 .mainBtn {
     width: 160px;
     height: 160px;
@@ -29,6 +15,45 @@
     justify-content: space-evenly
     /* отображение*/
 
+}
+
+.animeBtn {
+  animation-name : animbtn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+
+}
+
+@keyframes animbtn {
+
+  0% {
+    flex-direction: row;
+  }
+  50% {
+      width: 100%;
+      flex-direction: row;
+  }
+  65%{
+      width: 100%;
+      flex-direction: row;
+      height: 70px;
+      margin: 0px 0px;
+      border-top-right-radius: 0%;
+      border-top-left-radius: 0%;
+  }
+  100%{
+    width: 100%;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    height: 70px;
+    margin: 0px 0px;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+
+}
+  
 }
 
 .imglogo {
