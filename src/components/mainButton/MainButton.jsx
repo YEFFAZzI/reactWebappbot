@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './MainButton.css';
 
 function MainButton(props) {
-  const [anime, setAnime] = useState(true)
+  const [anime, setAnime] = useState(true)  
   
   const toggle = () => setAnime(!anime);
 

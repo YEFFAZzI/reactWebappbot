@@ -11,8 +11,8 @@ import MainButton from './components/mainButton/MainButton.jsx';
 
 
 function App() {
+
   
-    
   return (
       
     <div className="App" >
@@ -20,6 +20,7 @@ function App() {
       <MainButton title="Персонал" logo={ppl} />
       <MainButton title="QR" logo={qr} />
       <MainButton title="Настройки" logo={set} />
+      <button onClick={window.Telegram.WebApp.showScanQrPopup('hi')}>QR</button>
     </div>
   );
 }
