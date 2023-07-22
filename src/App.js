@@ -4,6 +4,7 @@ import ppl from './img/people.svg'
 import qr from './img/scan-barcode.svg'
 import set from './img/setting-3.svg'
 /* НУЖНО IMPORT ПОЛУЧШЕ ИКОНОК*/
+import {React} from 'react'
 import './App.css';
 import './components/mainButton/MainButton.jsx'
 import MainButton from './components/mainButton/MainButton.jsx';
@@ -27,19 +28,3 @@ function App() {
 
 export default App;
 
-/*
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <MainButton title="mainbutton " /> 
-
-
-    </div>
-  );
-}
-
-export default App;
-*/
